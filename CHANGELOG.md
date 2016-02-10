@@ -6,7 +6,8 @@
 
 ##### Enhancements
 
-* None.
+* `LintCommand` does not stop when SourceKitService crashes.  
+  [Norio Nomura](https://github.com/norio-nomura)
 
 ##### Bug Fixes
 
