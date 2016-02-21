@@ -1,2 +1,2 @@
-github "jpsim/SourceKitten"
+github "jpsim/SourceKitten" "nn-use-xcode-select-p-dlsym"
 github "scottrhoyt/SwiftyTextTable" "0.2.1"
