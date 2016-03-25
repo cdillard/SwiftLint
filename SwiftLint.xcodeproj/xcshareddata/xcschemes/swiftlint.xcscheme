@@ -20,6 +20,356 @@
                ReferencedContainer = "container:SwiftLint.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D45480561A9572F5009D7229"
+               BuildableName = "Result.framework"
+               BlueprintName = "Result-Mac"
+               ReferencedContainer = "container:Carthage/Checkouts/Commandant/Carthage/Checkouts/Result/Result.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D45480661A9572F5009D7229"
+               BuildableName = "Result-MacTests.xctest"
+               BlueprintName = "Result-MacTests"
+               ReferencedContainer = "container:Carthage/Checkouts/Commandant/Carthage/Checkouts/Result/Result.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D454807C1A957361009D7229"
+               BuildableName = "Result.framework"
+               BlueprintName = "Result-iOS"
+               ReferencedContainer = "container:Carthage/Checkouts/Commandant/Carthage/Checkouts/Result/Result.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D45480861A957362009D7229"
+               BuildableName = "Result-iOSTests.xctest"
+               BlueprintName = "Result-iOSTests"
+               ReferencedContainer = "container:Carthage/Checkouts/Commandant/Carthage/Checkouts/Result/Result.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "57FCDE3C1BA280DC00130C48"
+               BuildableName = "Result.framework"
+               BlueprintName = "Result-tvOS"
+               ReferencedContainer = "container:Carthage/Checkouts/Commandant/Carthage/Checkouts/Result/Result.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "57FCDE491BA280E000130C48"
+               BuildableName = "Result-tvOSTests.xctest"
+               BlueprintName = "Result-tvOSTests"
+               ReferencedContainer = "container:Carthage/Checkouts/Commandant/Carthage/Checkouts/Result/Result.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D03579991B2B788F005D26AE"
+               BuildableName = "Result.framework"
+               BlueprintName = "Result-watchOS"
+               ReferencedContainer = "container:Carthage/Checkouts/Commandant/Carthage/Checkouts/Result/Result.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D03579A51B2B78A1005D26AE"
+               BuildableName = "Result-watchOSTests.xctest"
+               BlueprintName = "Result-watchOSTests"
+               ReferencedContainer = "container:Carthage/Checkouts/Commandant/Carthage/Checkouts/Result/Result.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D00CCDD81A20717400109F8C"
+               BuildableName = "Commandant.framework"
+               BlueprintName = "Commandant"
+               ReferencedContainer = "container:Carthage/Checkouts/Commandant/Commandant.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D00CCDE31A20717400109F8C"
+               BuildableName = "Tests.xctest"
+               BlueprintName = "Tests"
+               ReferencedContainer = "container:Carthage/Checkouts/Commandant/Commandant.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CD9D052B1A757D8B003CCB21"
+               BuildableName = "SWXMLHash.framework"
+               BlueprintName = "SWXMLHash OSX"
+               ReferencedContainer = "container:Carthage/Checkouts/SWXMLHash/SWXMLHash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CD9D05351A757D8B003CCB21"
+               BuildableName = "SWXMLHash OSX Tests.xctest"
+               BlueprintName = "SWXMLHash OSX Tests"
+               ReferencedContainer = "container:Carthage/Checkouts/SWXMLHash/SWXMLHash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CD6083EE196CA106000B4F8D"
+               BuildableName = "SWXMLHash.framework"
+               BlueprintName = "SWXMLHash iOS"
+               ReferencedContainer = "container:Carthage/Checkouts/SWXMLHash/SWXMLHash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CD6083F9196CA106000B4F8D"
+               BuildableName = "SWXMLHash iOS Tests.xctest"
+               BlueprintName = "SWXMLHash iOS Tests"
+               ReferencedContainer = "container:Carthage/Checkouts/SWXMLHash/SWXMLHash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CDDEC74B1BF6311A00AB138B"
+               BuildableName = "SWXMLHash.framework"
+               BlueprintName = "SWXMLHash tvOS"
+               ReferencedContainer = "container:Carthage/Checkouts/SWXMLHash/SWXMLHash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CDDEC7541BF6311B00AB138B"
+               BuildableName = "SWXMLHash tvOS Tests.xctest"
+               BlueprintName = "SWXMLHash tvOS Tests"
+               ReferencedContainer = "container:Carthage/Checkouts/SWXMLHash/SWXMLHash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CDDEC7671BF6316C00AB138B"
+               BuildableName = "SWXMLHash.framework"
+               BlueprintName = "SWXMLHash watchOS"
+               ReferencedContainer = "container:Carthage/Checkouts/SWXMLHash/SWXMLHash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3B5BDCE51C63133100592068"
+               BuildableName = "SwiftyTextTable.framework"
+               BlueprintName = "SwiftyTextTable"
+               ReferencedContainer = "container:Carthage/Checkouts/SwiftyTextTable/SwiftyTextTable.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3B5BDCEF1C63133100592068"
+               BuildableName = "SwiftyTextTableTests.xctest"
+               BlueprintName = "SwiftyTextTableTests"
+               ReferencedContainer = "container:Carthage/Checkouts/SwiftyTextTable/SwiftyTextTable.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E1D762B1B258FEE0022C013"
+               BuildableName = "Tests.xctest"
+               BlueprintName = "Tests OSX"
+               ReferencedContainer = "container:Carthage/Checkouts/YamlSwift/Yaml.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F32DF2601B73054C0011046A"
+               BuildableName = "Tests.xctest"
+               BlueprintName = "Tests iOS"
+               ReferencedContainer = "container:Carthage/Checkouts/YamlSwift/Yaml.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E1D76201B258FEE0022C013"
+               BuildableName = "Yaml.framework"
+               BlueprintName = "Yaml OSX"
+               ReferencedContainer = "container:Carthage/Checkouts/YamlSwift/Yaml.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F32DF2571B73054C0011046A"
+               BuildableName = "Yaml.framework"
+               BlueprintName = "Yaml iOS"
+               ReferencedContainer = "container:Carthage/Checkouts/YamlSwift/Yaml.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D0D1216C19E87B05005E4BAA"
+               BuildableName = "SourceKittenFramework.framework"
+               BlueprintName = "SourceKittenFramework"
+               ReferencedContainer = "container:Carthage/Checkouts/SourceKitten/sourcekitten.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D0D1217619E87B05005E4BAA"
+               BuildableName = "SourceKittenFrameworkTests.xctest"
+               BlueprintName = "SourceKittenFrameworkTests"
+               ReferencedContainer = "container:Carthage/Checkouts/SourceKitten/sourcekitten.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
