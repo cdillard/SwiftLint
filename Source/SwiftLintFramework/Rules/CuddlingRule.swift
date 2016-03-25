@@ -59,7 +59,7 @@ public struct CuddlingRule: CorrectableRule, ConfigurationProviderRule {
         var contents = file.contents
         for range in matches.reverse() {
             contents = regularExpression.stringByReplacingMatchesInString(contents,
-                options: [], range: range, withTemplate: "}\n $1")
+                options: [], range: range, withTemplate: "}\n$1 {")
             let location = Location(file: file, characterOffset: range.location)
             corrections.append(Correction(ruleDescription: description, location: location))
         }
