@@ -58,8 +58,10 @@ public struct CuddlingRule: CorrectableRule, ConfigurationProviderRule {
         var corrections = [Correction]()
         var contents = file.contents
         for range in matches.reverse() {
+            let violator = (contents as NSString).substringWithRange(range) as String
+            let leadingSpaces = violator.leadingWhitespace()
             contents = regularExpression.stringByReplacingMatchesInString(contents,
-                options: [], range: range, withTemplate: "}\n$1 {")
+                options: [], range: range, withTemplate: "\(leadingSpaces)}\n\(leadingSpaces)$1 {")
             let location = Location(file: file, characterOffset: range.location)
             corrections.append(Correction(ruleDescription: description, location: location))
         }
@@ -70,11 +72,33 @@ public struct CuddlingRule: CorrectableRule, ConfigurationProviderRule {
 
     // MARK: - Private
 
-    private let pattern = "\\}(?:[^\\n]*|[ ]*)\\b(else|catch)\\b(?:[ ]*)\\{"
+    private let pattern = "(?:[ ]*)\\}(?:[^\\n]*|[ ]*)\\b(else|catch)\\b(?:[ ]*)\\{"
 
     private func violationRangesInFile(file: File, withPattern pattern: String) -> [NSRange] {
         return file.matchPattern(pattern).filter { range, syntaxKinds in
             return syntaxKinds.startsWith([.Keyword])
             }.flatMap { $0.0 }
+    }
+}
+
+extension String {
+
+    private func leadingCharactersInSet(characterSet: NSCharacterSet) -> String {
+        var count = 0
+        for char in utf16.lazy {
+            if !characterSet.characterIsMember(char) {
+                break
+            }
+
+            count += 1
+        }
+        let char = Character(" ")
+        let string = String(count: count, repeatedValue: char)
+
+        return string
+    }
+
+    private func leadingWhitespace() -> String {
+        return leadingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
     }
 }
